@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Assignment 1.1 Data Representation-->
+
+<library>
+
+  <book catalogue="Technical Books">
+    <ISBN>ISBN-10 : "0471295426" ISBN-13 : "978-0471295426"</ISBN>
+    <title lang="en">Getting Started in Technical Analysis</title>
+    <author>Jack D. Schwager</author>
+
+    <ISBN>ISBN-10 : "1510403124" ISBN-13 : "978-1510403123"</ISBN>
+    <title lang="en">CACHE Technical Level 3 Extended Diploma in Health and Social Care</title>
+    <author> Maria Ferreiro Peteiro </author>
+    
+  </book>
+
+  <book catalogue="Cookery Books">
+    <ISBN>ISBN-10 : "9781846077852" ISBN-13 : "978-1846077852"</ISBN>
+    <title lang="en">Mary Berry's Baking Bible</title>
+    <author>Mary Berry</author>
+
+    <ISBN>ISBN-10 : "0717180794" ISBN-13 : "978-0717180790"</ISBN>
+    <title lang="en">Neven Maguire's Home Economics for Life</title>
+    <author>Neven Maguire </author>
+
+  </book>
+</library>
+<!--Laura Brogan 23/09/2020-->
