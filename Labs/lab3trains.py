@@ -5,7 +5,12 @@ url = "http://api.irishrail.ie/realtime/realtime.asmx/getCurrentTrainsXML"
 page = requests.get(url)
 
 soup = BeautifulSoup(page.content, 'xml')
-listings = soup.findAll("objTrainPositions")
-for listing in listings:
-    print(listing)
+#print (soup.prettify())
+with open('week03_train.csv', mode='w')as train_file:
+    train_writer - csv.writer(train_file, delimiter-'\t', quotechar-'"', quoting-csv.QUOTE_MINIMAL)
+    listings = soup.findAll("objTrainPositions")
+
+    for listing in listings:
+    #print(listing)
+        print(listing.TrainLatitude.string)
     
